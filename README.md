@@ -56,7 +56,7 @@ order-service → customer_orders + outbox_messages (tek TX)
 ### 1. Config Server application.yaml güncelle
 `microservices/configs/config-server/src/main/resources/application.yaml` dosyasında:
 ```yaml
-uri: https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git
+uri: https://github.com/NG720/Microservices-Spring-GYGY-5.0.git
 ```
 kısmını kendi GitHub repo URL'inle değiştir.
 
